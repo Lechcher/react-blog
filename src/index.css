@@ -1,1 +1,29 @@
 @import "tailwindcss";
+
+@theme {
+    /* Screens */
+    --breakpoint-xs: 480px;
+    --breakpoint-ss: 620px;
+    --breakpoint-sm: 768px;
+    --breakpoint-md: 1060px;
+    --breakpoint-lg: 1200px;
+    --breakpoint-xl: 1700px;
+}
+
+@layer base {
+    li {
+        @apply p-4;
+    }
+
+    button {
+        @apply text-white border bg-indigo-600 border-indigo-600 hover:bg-transparent hover:text-indigo-600 rounded-md;
+    }
+
+    ul {
+        @apply p-0 list-none;
+    }
+
+    .line-break {
+        @apply whitespace-pre-wrap;
+    }
+}
