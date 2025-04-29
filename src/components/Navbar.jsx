@@ -8,7 +8,7 @@ const Navbar = () => {
     }
 
     return (
-        <div className='w-screen h-20 z-10 bg-white fixed drop-shadow-lg '>
+        <div className='w-screen h-20 z-10 bg-white drop-shadow-lg relative'>
             {/* == Navbar == */}
             <div className='flex justify-between items-center w-full h-full md:max-w-[1240px] m-auto'>
                 {/* Logo */}
