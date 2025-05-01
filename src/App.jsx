@@ -1,12 +1,12 @@
 import React from 'react'
-import { Navbar, Blogs } from "./components";
+import { HomePage, BlogContentPage } from './pages'
 
 const App = () => {
     return (
         <div>
-            <Navbar />
-            <Blogs />
-        </div>
+            <HomePage />
+            <BlogContentPage />
+        </ div>
     )
 }
 export default App
