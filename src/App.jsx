@@ -4,7 +4,7 @@ import { HomePage, BlogContentPage } from './pages'
 const App = () => {
     return (
         <div>
-            <HomePage />
+            {/* <HomePage /> */}
             <BlogContentPage />
         </ div>
     )

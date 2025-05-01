@@ -1,7 +1,7 @@
 import React from 'react'
 import { Navbar, Footer, BlogContent } from "../components"
 
-const BlogContent = () => {
+const BlogContentPage = () => {
     return (
         <div>
             <Navbar />
@@ -11,4 +11,4 @@ const BlogContent = () => {
     )
 }
 
-export default BlogContent
+export default BlogContentPage
